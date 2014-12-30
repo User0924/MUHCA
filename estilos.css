@@ -1,0 +1,51 @@
+a{
+	color: #22BCE0;
+}
+body{
+	background: #EEEEEE;
+	font-family: Arial;
+	/*font-size: 16px; se multiplica el tamaño de la fuente por 1.2 --> 16*1.2 (el tamaño real de la fuente es: 19)*/
+	font-size: 1.2em;
+}
+header{
+	background: #ff661b;
+	color: #ffffff;
+	overflow: hidden;
+	padding: 0.5em;
+	position: relative;
+}
+header figure{
+	float: left;
+}
+header h1{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0 70px 0 0;
+}
+
+header #avatar {
+	margin: 0.5em 0.5em 0 0
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+header #avatar img{
+	border-radius: 50%;
+	width: 55px;
+}
+header #logo img{
+	border-right: 1px solid white;
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+	width: 52px;
+}
+
+nav{
+
+	background: #242424;
+}
+
+nav ul{
+	list-style: none;
+}
